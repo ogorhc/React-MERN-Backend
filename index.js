@@ -6,7 +6,6 @@ const { jwtValidator } = require('./middlewares/jwt-validator');
 require('dotenv').config();
 
 const app = express();
-
 dbConnection();
 
 app.use(cors());
